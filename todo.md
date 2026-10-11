@@ -7,15 +7,15 @@
 - [x] 1.4. Install dependencies (`pip install -r requirements.txt`)
 
 ## Phase 2: Python Backend & AI-QA REST API (FastAPI)
-- [x] 2.1. Implement FastAPI REST API server (`src/ai_qa_engine/api/main.py`)
+- [x] 2.1. Implement FastAPI REST API server (`src/ai_qa_engine/api/main.py`) with centralized JSON data source (`data/shared_test_data.json`)
 - [x] 2.2. Implement Model Drift and Catastrophic Forgetting evaluators
-- [ ] 2.3. Run API locally (`uvicorn`) and verify with Swagger UI
+- [x] 2.3. Run API locally (`uvicorn`) and verify with Swagger UI
 
 ## Phase 3: C# xUnit SDET Automation Suite
-- [ ] 3.1. Add `RestSharp` & `Newtonsoft.Json` to C# project
-- [ ] 3.2. Implement `AiQaApiClient.cs` for REST API testing
-- [ ] 3.3. Implement Quality Gate integration tests (`QualityGateTests.cs`)
-- [ ] 3.4. Execute `dotnet test` and verify green status
+- [x] 3.1. Add `RestSharp` & `Newtonsoft.Json` to C# project
+- [x] 3.2. Implement `AiQaApiClient.cs` for REST API testing (API-First approach)
+- [x] 3.3. Implement Quality Gate integration tests (`QualityGateTests.cs`) without fallback defaults
+- [x] 3.4. Execute `dotnet test` and verify green status (2/2 passing)
 
 ## Phase 4: Streamlit Management Dashboard
 - [ ] 4.1. Implement interactive dashboard (`dashboard/app.py`)

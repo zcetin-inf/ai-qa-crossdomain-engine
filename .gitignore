@@ -12,3 +12,8 @@ obj/
 *.pdb
 *.suo
 .vs/
+
+# Generated reports / Rapor çıktıları
+reports/
+*.html
+*.pdf
