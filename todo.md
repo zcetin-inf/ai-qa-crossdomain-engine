@@ -4,7 +4,7 @@
 - [x] 1.1. Create project folder structure (PowerShell)
 - [x] 1.2. Initialize C# xUnit integration test project (`dotnet new xunit`)
 - [x] 1.3. Create Python virtual environment (`venv`)
-- [x ] 1.4. Install dependencies (`pip install -r requirements.txt`)
+- [x] 1.4. Install dependencies (`pip install -r requirements.txt`)
 
 ## Phase 2: Python Backend & AI-QA REST API (FastAPI)
 - [ ] 2.1. Implement FastAPI REST API server (`src/ai_qa_engine/api/main.py`)
