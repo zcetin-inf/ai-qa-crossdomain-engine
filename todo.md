@@ -7,8 +7,8 @@
 - [x] 1.4. Install dependencies (`pip install -r requirements.txt`)
 
 ## Phase 2: Python Backend & AI-QA REST API (FastAPI)
-- [ ] 2.1. Implement FastAPI REST API server (`src/ai_qa_engine/api/main.py`)
-- [ ] 2.2. Implement Model Drift and Catastrophic Forgetting evaluators
+- [x] 2.1. Implement FastAPI REST API server (`src/ai_qa_engine/api/main.py`)
+- [x] 2.2. Implement Model Drift and Catastrophic Forgetting evaluators
 - [ ] 2.3. Run API locally (`uvicorn`) and verify with Swagger UI
 
 ## Phase 3: C# xUnit SDET Automation Suite

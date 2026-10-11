@@ -1,0 +1,12 @@
+{
+  "drift_test": {
+    "baseline_data": [1.0, 1.1, 1.05, 1.02],
+    "current_data": [1.01, 1.03, 1.04, 1.02],
+    "threshold": 0.15
+  },
+  "forgetting_test": {
+    "baseline_accuracy": 0.92,
+    "current_accuracy": 0.89,
+    "max_allowed_drop": 0.05
+  }
+}
